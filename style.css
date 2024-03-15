@@ -1,0 +1,66 @@
+body {
+    background-color:rgb(238, 239, 240);
+}
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+div ul {
+
+    list-style-type: none;
+    padding: 15px 0px;
+    margin: 0;
+    
+}
+
+div li{
+    padding: 8px;
+}
+.recipe-link {
+
+    color: green;
+
+}
+.recipe-link:hover {
+    color: darkgreen;
+}
+
+.card {
+ 
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+
+}
+
+.card-title, .card-list{
+ 
+    background-color: rgb(228, 240, 250);
+    padding: 2px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid 1px lightgray;
+}
+
+.card-list{
+    text-align: left;
+}
+
+.container {
+    width: 75%;
+    margin:auto;
+    text-align: center;
+}
